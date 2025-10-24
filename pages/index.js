@@ -1,4 +1,12 @@
+import { useRouter } from 'next/router';
+
 function Home() {
+  const router = useRouter();
+
+  const handleHeartClick = () => {
+    router.push('/amor');
+  };
+
   return (
     <>
       <style jsx global>{`
@@ -267,6 +275,24 @@ function Home() {
         .tech-icon:nth-child(2) { animation-delay: 0.3s; }
         .tech-icon:nth-child(3) { animation-delay: 0.6s; }
         .tech-icon:nth-child(4) { animation-delay: 0.9s; }
+        .tech-icon:nth-child(5) { animation-delay: 1.2s; }
+
+        .heart-icon {
+          transition: all 0.3s ease;
+          filter: grayscale(0);
+        }
+
+        .heart-icon:hover {
+          animation: heartbeat 0.6s ease-in-out infinite, float 3s ease-in-out infinite;
+          transform: scale(1.3);
+          filter: drop-shadow(0 0 10px rgba(255, 105, 180, 0.8));
+        }
+
+        @keyframes heartbeat {
+          0%, 100% { transform: scale(1.3); }
+          25%, 75% { transform: scale(1.4); }
+          50% { transform: scale(1.3); }
+        }
 
         @keyframes float {
           0%, 100% { transform: translateY(0px); }
@@ -360,6 +386,7 @@ function Home() {
             <span className="tech-icon">🚀</span>
             <span className="tech-icon">⚡</span>
             <span className="tech-icon">🎯</span>
+            <span className="tech-icon heart-icon" onClick={handleHeartClick}>❤️</span>
           </div>
         </div>
       </div>
