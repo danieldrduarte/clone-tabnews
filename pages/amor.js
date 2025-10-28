@@ -276,7 +276,6 @@ function Amor() {
 
           <div className="big-heart">❤️</div>
           <h1 className="message">Eu te amo</h1>
-          <p className="subtitle">Hoje, amanhã e sempre ✨</p>
         </div>
       </div>
     </>
