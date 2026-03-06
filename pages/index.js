@@ -1,8 +1,4 @@
-import { useState } from 'react';
-
 function Home() {
-  const [hoveredCard, setHoveredCard] = useState(null);
-
   const featuredNews = [
     {
       id: 1,
@@ -515,8 +511,6 @@ function Home() {
                 <div 
                   key={news.id} 
                   className="news-card"
-                  onMouseEnter={() => setHoveredCard(news.id)}
-                  onMouseLeave={() => setHoveredCard(null)}
                   style={{
                     animationDelay: `${index * 0.1}s`
                   }}
