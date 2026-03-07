@@ -1,45 +1,105 @@
 function Home() {
   const featuredNews = [
-    {
-      id: 1,
-      category: 'Tecnologia',
-      title: 'A Revolução da IA: Como a Inteligência Artificial está Transformando o Mundo',
-      excerpt: 'Descubra as últimas tendências em IA e como elas estão moldando nosso futuro digital.',
-      author: 'João Silva',
-      date: '28 Out 2025',
-      readTime: '5 min',
-      icon: '🤖'
-    },
-    {
-      id: 2,
-      category: 'Programação',
-      title: 'Next.js 15: Novidades que Todo Desenvolvedor Precisa Conhecer',
-      excerpt: 'Explore as funcionalidades revolucionárias da nova versão do framework React mais popular.',
-      author: 'Maria Santos',
-      date: '27 Out 2025',
-      readTime: '8 min',
-      icon: '⚡'
-    },
-    {
-      id: 3,
-      category: 'Segurança',
-      title: 'Cibersegurança em 2025: Protegendo seus Dados na Era Digital',
-      excerpt: 'Aprenda as melhores práticas para manter suas informações seguras online.',
-      author: 'Pedro Costa',
-      date: '26 Out 2025',
-      readTime: '6 min',
-      icon: '🔒'
-    },
-    {
-      id: 4,
-      category: 'Web Dev',
-      title: 'CSS Moderno: Técnicas Avançadas de Estilização para 2025',
-      excerpt: 'Domine as últimas features do CSS e crie interfaces incríveis.',
-      author: 'Ana Lima',
-      date: '25 Out 2025',
-      readTime: '7 min',
-      icon: '🎨'
-    }
+      {
+        "id": 1,
+        "category": "Tecnologia",
+        "title": "A Revolução da IA: Como a Inteligência Artificial está Transformando o Mundo",
+        "excerpt": "Descubra as últimas tendências em IA e como elas estão moldando nosso futuro digital.",
+        "author": "João Silva",
+        "date": "28 Out 2025",
+        "readTime": "5 min",
+        "icon": "🤖"
+      },
+      {
+        "id": 2,
+        "category": "Programação",
+        "title": "Next.js 15: Novidades que Todo Desenvolvedor Precisa Conhecer",
+        "excerpt": "Explore as funcionalidades revolucionárias da nova versão do framework React mais popular.",
+        "author": "Maria Santos",
+        "date": "27 Out 2025",
+        "readTime": "8 min",
+        "icon": "⚡"
+      },
+      {
+        "id": 3,
+        "category": "Segurança",
+        "title": "Cibersegurança em 2025: Protegendo seus Dados na Era Digital",
+        "excerpt": "Aprenda as melhores práticas para manter suas informações seguras online.",
+        "author": "Pedro Costa",
+        "date": "26 Out 2025",
+        "readTime": "6 min",
+        "icon": "🔒"
+      },
+      {
+        "id": 4,
+        "category": "Web Dev",
+        "title": "CSS Moderno: Técnicas Avançadas de Estilização para 2025",
+        "excerpt": "Domine as últimas features do CSS e crie interfaces incríveis.",
+        "author": "Ana Lima",
+        "date": "25 Out 2025",
+        "readTime": "7 min",
+        "icon": "🎨"
+      },
+      {
+        "id": 5,
+        "category": "Frontend",
+        "title": "React Server Components: O Futuro da Renderização Web",
+        "excerpt": "Entenda como os Server Components estão mudando a forma de construir aplicações React.",
+        "author": "Lucas Almeida",
+        "date": "24 Out 2025",
+        "readTime": "6 min",
+        "icon": "⚛️"
+      },
+      {
+        "id": 6,
+        "category": "Backend",
+        "title": "Node.js em Alta Performance: Técnicas para Escalar APIs",
+        "excerpt": "Veja estratégias modernas para melhorar a performance e escalabilidade de aplicações Node.js.",
+        "author": "Carla Mendes",
+        "date": "23 Out 2025",
+        "readTime": "7 min",
+        "icon": "🟢"
+      },
+      {
+        "id": 7,
+        "category": "DevOps",
+        "title": "Docker e Kubernetes: Automatizando Deploys em 2025",
+        "excerpt": "Aprenda como containers e orquestração podem acelerar o ciclo de desenvolvimento.",
+        "author": "Rafael Souza",
+        "date": "22 Out 2025",
+        "readTime": "9 min",
+        "icon": "🐳"
+      },
+      {
+        "id": 8,
+        "category": "Mobile",
+        "title": "React Native vs Flutter: Qual Escolher em 2025?",
+        "excerpt": "Comparação completa entre os dois frameworks mais populares para apps mobile.",
+        "author": "Juliana Rocha",
+        "date": "21 Out 2025",
+        "readTime": "8 min",
+        "icon": "📱"
+      },
+      {
+        "id": 9,
+        "category": "Dados",
+        "title": "Big Data e Machine Learning: Insights que Transformam Negócios",
+        "excerpt": "Como empresas estão usando análise de dados e ML para tomar decisões mais inteligentes.",
+        "author": "Fernando Ribeiro",
+        "date": "20 Out 2025",
+        "readTime": "6 min",
+        "icon": "📊"
+      },
+      {
+        "id": 10,
+        "category": "Carreira",
+        "title": "Carreira em Tecnologia: Habilidades Essenciais para 2026",
+        "excerpt": "Descubra quais competências serão mais valorizadas no mercado de tecnologia.",
+        "author": "Patrícia Gomes",
+        "date": "19 Out 2025",
+        "readTime": "5 min",
+        "icon": "🚀"
+      }
   ];
 
   return (
