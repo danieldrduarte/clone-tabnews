@@ -97,7 +97,7 @@ function Home() {
         "excerpt": "Descubra quais competências serão mais valorizadas no mercado de tecnologia.",
         "author": "Patrícia Gomes",
         "date": "19 Out 2025",
-        "readTime": "5 min",
+        "readTime": "6 min",
         "icon": "🚀"
       }
   ];
